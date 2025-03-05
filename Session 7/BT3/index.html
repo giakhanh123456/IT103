@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gia Khánh</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Reset cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center;  
+  align-items: flex-start;
+}
+
+.news-card {
+  width: 400px;             
+  background-color: #ffffff;         
+  border-radius: 8px;
+  overflow: hidden;           
+}
+.news-label {
+  background-color: #ffffff;  
+  color: #555;                
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+.news-image img {
+  width: 100%;
+  height: auto;
+  display: block;            
+}
+.news-content {
+  padding: 16px;
+}
+.news-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+.news-category {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #007BFF;            
+  margin-bottom: 8px;
+}
+.news-description {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+  </style>
+</head>
+<body>
+
+    <div class="news-card">
+        <div class="news-label">
+          <span class="icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="12" fill="#FF6600"></circle>
+              <path fill="#FFFFFF" d="M12 17.27l5.18 3.05-1.64-7.03 4.7-4.39-7.19-.61L12 2l-1.05 6.29-7.19.61 4.7 4.39-1.64 7.03z"/>
+            </svg>
+          </span>
+          <span>EDITOR'S PICK</span>
+        </div>
+    <div class="news-image">
+      <img src="https://media1.nguoiduatin.vn/media/nguyen-thi-bich-hao/2024/01/23/mlee-large.jpeg" alt="News Image"/>
+    </div>
+    <div class="news-content">
+      <h2 class="news-title">Khó cứu được Chị Đẹp Đạp Gió 2024</h2>
+      <div class="news-category">Musik</div>
+      <p class="news-description">
+        Quy tụ dàn nghệ sĩ nổi tiếng như Ngọc Ánh, Minh Tuyết, Phương Thanh,
+        Tóc Tiên, Minh Hằng... Chị Đẹp Đạp Gió 2024 không có sức hút, gần như
+        hụt hơi trước các anh trai và loạt sự kiện giải trí khác.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
